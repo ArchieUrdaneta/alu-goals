@@ -8,7 +8,7 @@ const Create = () => {
   const [goal, setGoal] = useState('')
   const { createGoal } = useGoals()
   const router = useRouter
-  
+
   const handleSubmit = async () => {
     await createGoal({
       goal,
@@ -62,3 +62,5 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   }
 })
+
+//
